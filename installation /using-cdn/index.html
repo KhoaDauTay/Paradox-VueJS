@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test VueJS</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+<h1>Test App VueJS</h1>
+<h2>Hello </h2>
+<div id="counter">
+    Counter: {{ counter }}
+</div>
+<div id="bind-attribute">
+     <span v-bind:title="message">
+    Hover your mouse over me for a few seconds to see my dynamically bound
+    title!
+  </span>
+</div>
+<div id="event-handling">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
+</div>
+<div id="two-way-binding">
+    <p>{{ message }}</p>
+    <input v-model="message" />
+</div>
+<div id="conditional-rendering">
+    <span v-if="seen">Now you see me</span>
+</div>
+<div id="list-rendering">
+    <ol>
+        <li v-for="todo in todos">
+            {{ todo.text }}
+        </li>
+    </ol>
+</div>
+<div id="todo-list-app">
+    <ol>
+        <!--
+          Now we provide each todo-item with the todo object
+          it's representing, so that its content can be dynamic.
+          We also need to provide each component with a "key",
+          which will be explained later.
+        -->
+        <todo-item
+                v-for="item in groceryList"
+                v-bind:todo="item"
+        ></todo-item>
+    </ol>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
