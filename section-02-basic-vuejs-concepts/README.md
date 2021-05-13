@@ -105,40 +105,7 @@ const Counter = {
 Vue.createApp(Counter).mount('#counter')
 ```
 ### Binding Attributes
-- Directive refers to the html attributes that don' t exist in the dom, so vue provides us with the directive to help us interact with the dom, elements. Usually starts with the prefix `v-`
-```vue
-<div id="app-2">
-  <span v-bind:title="message">
-    Hover your mouse over me for a few seconds
-    to see my dynamically bound title!
-  </span>
-</div>
-```
-```vue
-var app2 = new Vue({
-  el: '#app-2',
-  data: {
-    message: 'You loaded this page on ' + new Date().toLocaleString()
-  }
-})
-```
-## Conditionals and Loops
-- This example demonstrates that we can bind data to not only text and attributes, but also the structure of the DOM
-```vue
-<div id="app-3">
-  <span v-if="seen">Now you see me</span>
-</div>
-```
-```
-var app3 = new Vue({
-  el: '#app-3',
-  data: {
-    seen: true
-  }
-})
-```
-- Notes: Moreover, Vue also provides a powerful transition effect system that can automatically apply transition effects when elements are inserted/updated/removed by Vue.
 ## Handling User Input
-- 
+## Conditionals and Loops
 ## Composing with Components
 ## Relation to Custom Elements
