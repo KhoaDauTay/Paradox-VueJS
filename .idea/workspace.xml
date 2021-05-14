@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="47851985-5bd6-4a62-897e-48597608b22c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-02-basic-vuejs-concepts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/section-02-basic-vuejs-concepts/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-02-basic-vuejs-concepts/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-02-basic-vuejs-concepts/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-02-basic-vuejs-concepts/images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/section-02-basic-vuejs-concepts/images/img-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-03-application-and-component-instances/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/section-03-application-and-component-instances/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-03-application-and-component-instances/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-03-application-and-component-instances/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-03-application-and-component-instances/code/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/section-03-application-and-component-instances/code/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +53,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/section-03-application-and-component-instances/images" />
       <recent name="$PROJECT_DIR$/section-02-basic-vuejs-concepts/images" />
       <recent name="$PROJECT_DIR$/section-02-basic-vuejs-concepts/code" />
       <recent name="$PROJECT_DIR$/section-02-basic-vuejs-concepts" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Paradox-VueJS/section-02-basic-vuejs-concepts/code/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Paradox-VueJS/section-03-application-and-component-instances/code/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Paradox-VueJS/Application &amp; Component Instances/index.html" useBuiltInWebServerPort="true">
@@ -67,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
